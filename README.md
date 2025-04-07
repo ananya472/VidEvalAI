@@ -10,8 +10,11 @@ Difficult to scale when there are many candidates or students
 Teachers, recruiters, and mentors struggle to assess all aspects of a person’s communication—like how well they speak, how confident they sound, whether their answers make sense, and how close their answer is to the correct one.
 
 
-This is where EvalynAI comes in.
-EvalynAI is a smart AI-powered evaluation tool that analyzes spoken answers from videos. It gives automatic feedback on the following:
+This is where VidEvalAI comes in.
+
+![Image Alt](https://github.com/ananya472/VidEvalAI/blob/98d406a8404a36e3be50e6411d16c4c93688e916/Screenshot%202025-04-07%20083448.png)
+
+VidEvalAI is a smart AI-powered evaluation tool that analyzes spoken answers from videos. It gives automatic feedback on the following:
 
 ✅ Grammar – Checks how correct the language is
 
@@ -21,4 +24,8 @@ EvalynAI is a smart AI-powered evaluation tool that analyzes spoken answers from
 
 😊 Emotion – Detects the speaker’s emotion (e.g., confident, sad, happy, nervous)
 
-![Image Alt](https://github.com/ananya472/VidEvalAI/blob/98d406a8404a36e3be50e6411d16c4c93688e916/Screenshot%202025-04-07%20083448.png)
+![Image Alt](https://github.com/ananya472/VidEvalAI/blob/98d406a8404a36e3be50e6411d16c4c93688e916/Screenshot%202025-04-07%20083433.png)
+
+
+
+
