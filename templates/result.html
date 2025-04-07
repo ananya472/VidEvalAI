@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluation Result - VIDEval AI</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .metric {
+            margin: 15px 0;
+            padding: 12px;
+            background: #f1f3f5;
+            border-left: 5px solid #007bff;
+        }
+
+        .transcript {
+            white-space: pre-wrap;
+            background: #eef2f5;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>📊 Evaluation Results</h2>
+
+    <div class="metric"><strong>Grammar Score:</strong> {{ grammar_score }}/100</div>
+    <div class="metric"><strong>Explanation Relevance:</strong> {{ explanation_score }}/10</div>
+    <div class="metric"><strong>Coherence:</strong> {{ coherence_label }} (Confidence: {{ coherence_score }}%)</div>
+    <div class="metric"><strong>Detected Emotion:</strong> {{ emotion }}</div>
+
+    <h3>📝 Transcript:</h3>
+    <div class="transcript">{{ transcript }}</div>
+
+    <a href="/">← Try another video</a>
+</div>
+</body>
+</html>
+
+
+
