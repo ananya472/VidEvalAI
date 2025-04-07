@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e2b0d0d8-7e9a-4895-90bc-7b75cb697891)# VidEvalAI
+# VidEvalAI
 
 In today’s digital learning and interview-based environment, students and job seekers often need to record video responses or give virtual interviews. But evaluating these responses manually is:
 Time-consuming
